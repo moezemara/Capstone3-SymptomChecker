@@ -22,8 +22,10 @@ Please go to the root directory and type
 grab your auth key from dashboard.ngrok.com
 
 `ngrok auth <AUTHKEY>`
+
 then start it and use your generated link
-`ngrok http 5050`
+
+`ngrok http 8080`
 
 
 
