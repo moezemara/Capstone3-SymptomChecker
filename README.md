@@ -15,6 +15,19 @@ Please go to the root directory and type
 
 `yarn build`
 
+### Unleash to the public
+
+` sudo apt-get install ngrok`
+
+grab your auth key from dashboard.ngrok.com
+
+`ngrok auth <AUTHKEY>`
+then start it and use your generated link
+`ngrok http 5050`
+
+
+
+
 ## License
 
 This application is [MIT licensed](./LICENSE).
